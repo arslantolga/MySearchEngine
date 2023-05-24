@@ -1,0 +1,92 @@
+body{
+    background: #f2f2f2;
+    font-family: 'Open Sans', sans-serif;
+  }
+
+#logo{
+    width: 400px;
+    height: 150px;
+    position: relative;
+    top: 150px;
+    left: 535px;
+}
+
+#search-box{
+    position: absolute;
+    top: 320px;
+    left: 415px;
+    padding: 10px;
+    width: 500px;
+    border: none;
+    margin-bottom: 50px;
+    margin-left: 80px;
+    font-size: 17px;
+    border-radius: 20px;
+  }
+
+#searchbutton {
+    position: absolute;
+    top: 370px;
+    left: 565px;
+    border: none;
+    color: rgb(0, 0, 0);
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    background-color: #C1C0C0;
+    border-radius: 10px;
+  }
+#luckybutton {
+    position: absolute;
+    top: 370px;
+    left: 745px;
+    border: none;
+    color: rgb(0, 0, 0);
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    background-color: #C1C0C0;
+    border-radius: 10px;
+  }
+#luckybutton:active{
+    background-color: #EBE7E7;
+}
+#searchbutton:active{
+    background-color: #EBE7E7;
+}
+
+#imagelink{
+    position: absolute;
+    right: 30px;
+}
+#imagesearchbutton {
+    position: absolute;
+    top: 370px;
+    left: 663px;
+    border: none;
+    color: rgb(0, 0, 0);
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    background-color: #C1C0C0;
+    border-radius: 10px;
+  }
+#imagesearchbutton:active{
+    background-color: #EBE7E7;
+}
+#googlelink{
+    position: absolute;
+    right: 30px;
+}
